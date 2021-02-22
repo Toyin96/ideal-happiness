@@ -1,0 +1,44 @@
+.first{
+    font-style: italic;
+    color: red;
+}
+
+#latestComment{
+    font-style: italic;
+    color: brown;
+}
+
+h2{
+    font-size: 18pt;
+    font-weight: bold;
+    color: red;
+}
+p{
+    color: green;
+}
+
+a:link{
+    text-decoration: underline;
+    color: blue;
+}
+
+a:visited{
+    text-decoration: underline;
+    color: purple;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:active{
+    background-color: yellow;
+}
+
+#main time {color: red;}
+#main>time {color: purple;}
+#main div p:first-child{
+    color: green;
+}
+

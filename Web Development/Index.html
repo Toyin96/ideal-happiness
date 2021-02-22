@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Share Your Travels -- New York - Central Park</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+    <header>
+        <img src="logo.gif" alt="logo"/>
+        <h1>Fundamentals of Web Development</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="Reviews.html">Browse</a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>Share Your Travels</h1>
     <ul>
         <li><a href="Index.html">Home</a></li>
@@ -20,21 +32,42 @@
         <a href="http://www.Centralpark.com/">Central Park</a>
         New York City was taken on October 22, 2016 with a <strong>Canon EOS 3OD</strong> Camera.
     </p>
-    <img src="/Image/alex-simpson-0xg_DMJnO3g-unsplash.jpg"alt="" width="50%">
+    <figure>
+        <img src="/Image/alex-simpson-0xg_DMJnO3g-unsplash.jpg" alt="Central Park" width="50%">
+        <figcaption>Conservatory Pond in Central Park</figcaption>
+    </figure>
 
-    <h1></h1>
-    <h2></h2>
-    <h3></h3>
-    <h4></h4>
-    <h5></h5>
-    <h6></h6>
-    <div>
-        <p>By Richardo on <time>2016-05-23</time></p>
+    <p>It was a wonderfully beautiful autumn Sunday, with strong sunlight and expressive clouds. I was very fortunate that my one day in New York was blessed with such weather!</p>
+    
+    <h2>Girl with a Pearl Earring</h2>
+    <details>
+        <summary>
+            Image
+        </summary>
+        <img src="/Image/girl with pearl earing.jpg" alt="Girl with a Pearl Earing"><br>>
+        <p>Museaum: Royal Picture Gallery Mauritius</p>
+    </details>
+    <details>
+        <summary>Artist</summary>
+        <p><strong>Jan Vermeer</strong> was a Dutch...</p>
+    </details>
+    <details>
+        <summary>Information</summary>
+        <p>
+            Date: 1665<br>
+            Medium: oil on Canvas
+        </p>
+    </details>
+    
+    <h1 class="first">Reviews</h1>
+    <div id="latestComment">
+        <p class="first">By Richardo on <time>2016-05-23</time></p>
         <p>Easy on the HDR buddy</p>
+    </div>
     </div>
     <hr>
     <div>
-        <p>By Susan on <time>2016-11-18</time></p>
+        <p class="first">By Susan on <time>2016-11-18</time></p>
         <p>I love Central Park.</p>
     </div>
 

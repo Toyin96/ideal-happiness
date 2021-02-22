@@ -1,0 +1,88 @@
+.divmain {
+    /* width: 600px; */
+    color: grey;
+    display: flex;
+    /* align-items: center; */
+    /* padding: 15px; */
+    /* border: 1px solid; */
+    color: hsl(179, 62%, 43%);
+    flex-direction: column;
+}
+.down{
+    display: flex;
+}
+.div1 h2{
+    color: hsl(179, 62%, 43%);
+}
+
+.div1 h3{
+    color: hsl(71, 73%, 54%);
+}
+
+.div1 p{
+    color: grey;
+}
+
+body{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.div1 {
+    /* width: 100%; */
+    padding: 25px;
+    background-color: white;
+    font-size: 16px;
+    height: 50%;
+}
+
+.div2 {
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    font-size: 16px;
+    color: white;
+    /* align-items: left; */
+    padding: 15px;
+    /* flex-direction: row; */
+    border: 1px solid;
+    border-color: hsl(179, 62%, 43%);
+}
+
+.div2 button{
+    background-color: hsl(71, 73%, 54%);
+    width: 100%;
+    padding: 10px;
+    border-color: hsl(71, 73%, 54%);
+    color: grey;
+}
+
+.div3 {
+    width: 50%;
+    background-color: hsl(179, 78%, 37%);
+    font-size: 16px;
+    color: hsl(204, 43%, 93%);
+    padding: 25px;
+    /* flex-direction: row-reverse;
+    align-items: right; */
+    border: 1px solid;
+    border-color: hsl(179, 78%, 37%);
+    padding-top: 15px;
+}
+
+.up{
+    background-color: white;
+}
+
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+
+.smallguys{
+    font-size: 28px;
+    font-family: karla;
+   margin-right: 1rem;
+
+}
+
