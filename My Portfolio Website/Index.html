@@ -1,68 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toyin Onagoruwa's Portfolio</title>
     <a href=index.html>Homepage</a>
     <a href="About.html">About Me</a>
+    <a href="Gallery.html">Gallery</a>
+    <a href="Contact.html">Contact Me</a>
     <a href="privacy.html">Privacy Policy</a>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <h1 class="first">TOYIN ONAGORUWA</h1>
-    <img src="/Images/TOYIN.jpg" alt="" width="250px" height= "250px" >
-    <p class="first">Hi there! I am Toyin Onagorua, a software engineer, botanist, and a data scientist. I take pride in my learning process and in what i've built.</p>
-    
+    <img src="/Images/TOYIN.jpg" alt="" width="250px" height="250px">
+    <p class="first">Hi there! I am Toyin Onagorua, a software engineer, botanist, and a data scientist. I take pride in
+        my learning process and in what i've built.</p>
+
     <h2 style="font-size: 24pt">Description</h2>
     <h2 style="font-size: 24pt;font-weight:bold;">Reviews</h2>
     <h2>My Stack</h2>
-    
+
     <details>
         <summary>Backend</summary>
         <li>Java</li>
         <li>Python</li>
     </details>
 
-    <details><summary>Frontend</summary>
+    <details>
+        <summary>Frontend</summary>
         <li>React.js</li>
         <li>HTML</li>
         <li>CSS</li>
     </details>
-   
+
     <details>
         <summary>Database</summary>
-            <li>MySQL</li>
-            <li>SQLlite</li>
-            <li>Oracle</li>
-            <li>DB2</li>
+        <li>MySQL</li>
+        <li>SQLlite</li>
+        <li>Oracle</li>
+        <li>DB2</li>
     </details>
 
     <details>
         <summary>Technology</summary>>
-            <li>Jira</li>
-            <li>Trello</li>
-            <li>Slack</li>
-            <li>Mangaro</li>
+        <li>Jira</li>
+        <li>Trello</li>
+        <li>Slack</li>
+        <li>Mangaro</li>
     </details>
-           
-    
-<h3>Reviews</h3>
-<p class="first"><i>"Toyin is your go to software engineer. He is well grounded in all software methodlogies like Scrum, Agile, and SWOT analysis. He is efficient and self-sufficient. I was sad when he left our company for Google." By Edward Shark, Techlead Facebook</i></p>
-<p class="first"><i>"Toyin is definitely one of the few software engineers i can recommend at any point in time. He exudes all manner of professioanlism at his work. He is very humble and always willing to learn new things. He is an engineer every top organization should have in their tech team." By Simon Butler, Senior Product Manager, Microsoft</i></p>
 
 
-<h3>My Projects</h3>
+    <h3>Reviews</h3>
+    <p class="first"><i>"Toyin is your go to software engineer. He is well grounded in all software methodlogies like
+            Scrum, Agile, and SWOT analysis. He is efficient and self-sufficient. I was sad when he left our company for
+            Google." By Edward Shark, Techlead Facebook</i></p>
+    <p class="first"><i>"Toyin is definitely one of the few software engineers i can recommend at any point in time. He
+            exudes all manner of professioanlism at his work. He is very humble and always willing to learn new things.
+            He is an engineer every top organization should have in their tech team." By Simon Butler, Senior Product
+            Manager, Microsoft</i></p>
 
-<details>
-    <summary><strong>Contact</strong></summary>
-    <a href="https://github.com/Toyin96">Github Page</a><br>
-    <a href="mailto: onagoruwam@gmail.com">Email</a><br>
-    <a href="tel:+2349043910175">Call Me</a><br>
-    <a href="https://twitter.com/onagoruwatoyin9">Twitter Page</a>
-</details>
-<p></p>
+
+    <h3>My Projects</h3>
+
+    <details>
+        <summary><strong>Contact</strong></summary>
+        <a href="https://github.com/Toyin96">Github Page</a><br>
+        <a href="mailto: onagoruwam@gmail.com">Email</a><br>
+        <a href="tel:+2349043910175">Call Me</a><br>
+        <a href="https://twitter.com/onagoruwatoyin9">Twitter Page</a>
+    </details>
+
+    <form method="post" action="process.php">
+        <fieldset>
+            <legend>Sign Up</legend>
+            <label for="Name">Name:</label>
+            <input type="Name" ... /><br>
+            <label for="Username">Username:</label>
+            <input type="Username" ... /><br>
+            <label for="password">Password:</label>
+            <input type="password" ... /><br>
+            <label for Address>Address</label>
+            <textarea placeholder="enter some text"></textarea><br>
+            <label>Gender</label>:</label>
+            <select name="gender">
+                <option>select your sex</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Binary</option>
+            </select>
+            <label>Country:</label>
+            <select name="where">
+                <option>Select country</option>
+                <option>Canada</option>
+                <option>UK</option>
+                <option>China</option>
+                <option>Germany</option>
+                <option>Japan</option>
+                <option>Sweden</option>
+                <option>Spain</option>
+                <option>South Africa</option>
+                <option>France</option>
+                <option>Finland</option>
+                <option>Nigeria</option>
+                <option>United States</option>
+            </select><br>
+            <br><label>Search cities:</label>
+            <input type="text" name="city" list="cities" />
+            <datalist id="cities">
+                <option>Calcutta</option>
+                <option>Calgary</option>
+                <option>London</option>
+                <option>Munich</option>
+                <option>Cape town</option>
+                <option>Lagos</option>
+                <option>Madrid</option>
+                <option>Los Angeles</option>
+                <option>New York</option>
+                <option>Beijing</option>
+                <option>Tokyo</option>
+                <option>Paris</option>
+                <option>Abuja</option>
+                <option>Johannesburg</option>
+            </datalist>
+            <select name="choices">
+                <option>First</option>
+                <option selected>Second</option>
+                <option>Third</option>
+            </select><br>
+
+                <label for="cities">Search cities: </label>
+                <select cities>
+                    <optgroup label="North America">
+                        <option>Los Angeles</option>
+                        <option>New York</option>
+                        <option>Calcutta</option>
+                        <option>Calgary</option>
+                    </optgroup>
+                    <optgroup label="Europe">
+                        <option>Paris</option>
+                        <option>Lagos</option>
+                        <option>Madrid</option>
+                        <option>London</option>
+                        <option>Munich</option>
+                    </optgroup>
+                    <optgroup label="Africa">
+                        <option>Abuja</option>
+                        <option>Johannesburg</option>
+                        <option>Cape town</option>
+                        <option>Lagos</option>
+                    </optgroup>
+                    <optgroup label="Asia">
+                        <option>Beijing</option>
+                        <option>Tokyo</option>
+                    </optgroup>
+                </select>
+                <label for="Phone">Phone:</label>
+                <input type="Phone" /><br>
+                <input type="submit" />
+                <input type="reset" /><br>
+            </select>
+        </fieldset>
+    </form>
 
 </body>
 <hr><small>Copyright &copy; 2021. Built with 💜 in Berlin</small></hr>
+
 </html>

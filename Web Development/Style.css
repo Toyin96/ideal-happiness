@@ -42,3 +42,36 @@ a:active{
     color: green;
 }
 
+table{
+    border: solid 1pt black
+}
+td{
+    border: solid 1pt black;
+}
+
+table{
+    border: solid 1pt black;
+    border-collapse: 1pt black;
+}
+td{
+    border: solid 1pt black;
+}
+
+table{
+    border: solid 1pt black;
+    border-collapse: collapse;
+}
+td{
+    border: solid 1pt black;
+    padding: 10px
+}
+
+table{
+    border: solid 1pt black;
+    border-spacing: 10pt;
+}
+
+td{
+    border: solid 1pt black;
+}
+
