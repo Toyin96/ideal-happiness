@@ -1,0 +1,133 @@
+.Nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width:100%;
+    margin-bottom: 100px;
+}
+
+.nav1{
+    font-size: 1.4em;
+}
+
+.nav1 a{
+    color: black;
+    }
+
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+h1{
+    color:rgb(255, 60, 93);
+}
+
+.bodycss h2{
+    font-size: 35px;
+}
+
+.bodycss p{
+    font-size: 25px;
+}
+
+body{
+    background-color: white;
+}
+
+#button1{
+    padding: 8px;
+    border: 0;
+    background-color: rgb(255, 60, 93);
+    color: white; 
+}
+
+.entirefirstbody{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    justify-content:space-between;
+}
+
+.bodynav{
+    display: flex;
+    flex-direction: column;
+}
+
+.innernav{
+    margin-right: 10px;
+    align-items: center;
+    display:flex;
+}
+
+.innernav button{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    margin-right: 10px;
+    background-color: rgb(255, 60, 93);
+    color: white; 
+}
+
+.secondbody{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content:space-between;
+    margin-bottom: 100px;
+}
+
+.innersecondbody h2{
+    font-size: 35px;
+}
+
+.innersecondbody p{
+    font-size: 20px;
+}
+
+body{
+    width: 100%;
+    align-items: center;
+    max-width: 900px;
+    margin-left: 150px;
+    margin-right: 1500px;
+}
+
+.secondsection{
+    display: flex;
+    justify-content: space-between;
+   border-bottom: 1px solid;
+}
+
+#biggerh2{
+    font-size: 35px;
+}
+
+#smallerh2{
+    margin-top: 47px;
+    text-justify: right;
+    color: grey;
+    font-size: 17px;
+}
+
+.section3one{
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.section3one{
+    display: flex;
+    justify-content: space-between
+}
+
+.section3two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+}
