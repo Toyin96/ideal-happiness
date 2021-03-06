@@ -20,7 +20,7 @@ a{
 }
 
 h1{
-    color:rgb(255, 60, 93);
+    color:#ff5678
 }
 
 .bodycss h2{
@@ -38,7 +38,7 @@ body{
 #button1{
     padding: 8px;
     border: 0;
-    background-color: rgb(255, 60, 93);
+    background-color: #ff5678;
     color: white; 
 }
 
@@ -57,7 +57,8 @@ body{
 .innernav{
     margin-right: 10px;
     align-items: center;
-    display:flex;
+    display: flex;
+    justify-content:space-between;
 }
 
 .innernav button{
@@ -67,7 +68,7 @@ body{
     padding-bottom: 10px;
     border: 0;
     margin-right: 10px;
-    background-color: rgb(255, 60, 93);
+    background-color:#ff5678;
     color: white; 
 }
 
@@ -108,7 +109,7 @@ body{
 #smallerh2{
     margin-top: 47px;
     text-justify: right;
-    color: grey;
+    color: #999999;
     font-size: 17px;
 }
 
@@ -122,12 +123,34 @@ body{
     justify-content: space-between
 }
 
+
+.section3one{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .section3two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Skillset{
     display: flex;
     justify-content: space-between;
 }
 
-.section3{
-    display: flex;
-    flex-direction: column;
+.skill{
+    border-bottom: 1px solid;
+    font-size: 30px;
+}
+
+.section4first{
+    border: 3px thick;
+    background-color:rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.size{
+    width: 30%;
 }
