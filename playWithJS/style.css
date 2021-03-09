@@ -1,6 +1,18 @@
 .first-javascript{
     color:black;
     text-align: center;
+    background-color: blue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
 }
+
+button{
+    color: rgb(31, 25, 29);
+    background-color: rgb(240, 24, 143);
+}
+
+.color-box {
+    background-color: limegreen;
+    width: 100px;
+    height: 100px;
+  }
